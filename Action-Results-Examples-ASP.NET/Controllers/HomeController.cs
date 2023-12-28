@@ -20,7 +20,7 @@ namespace Action_Results_Examples_ASP.NET.Controllers
 
         public IActionResult Partial()
         {
-            return View();
+            return PartialView();
         }
 
         public IActionResult Json()
